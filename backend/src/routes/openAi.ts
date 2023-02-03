@@ -2,7 +2,7 @@ import { FastifyInstance } from 'fastify'
 import axios from "axios"
 import { z } from 'zod'
 
-const API_KEY = "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"
+const API_KEY = "Digite aqui a API Key"
 const ENDPOINT = "https://api.openai.com/v1/images/generations"
 
 export async function openAiRouter(fastify: FastifyInstance) {
